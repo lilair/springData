@@ -29,4 +29,9 @@ public class CustomerDaoTest {
         Customer customer = customerDao.findOne(1l);
         System.out.println(customer);
     }
+    @Test
+    public void testFindOne2() {
+        Customer customer = customerDao.findOne(2l);
+        System.out.println(customer);
+    }
 }
